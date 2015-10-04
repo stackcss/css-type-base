@@ -19,6 +19,8 @@ With [sheetify][2] installed do:
 - [typebase][0]
 - [css-scale][1]
 - [sheetify][2]
+- [css-wipe][3]
+- [ergonomic-breakpoint][4]
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
