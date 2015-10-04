@@ -1,0 +1,87 @@
+:root {
+  --base-font-size: 22;
+  --base-line-height: 1.5;
+  --leading: calc(var(--base-line-height) * 1rem);
+  --scale: 1.414;
+}
+
+html {
+  font-size: calc(var(--base-font-size) - 0px);
+  font-size: calc(var(--base-font-size) / 16 * 100%);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+p {
+  line-height: var(--leading);
+  margin-top: var(--leading);
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: var(--leading);
+  margin-bottom: var(--leading);
+}
+ul li,
+ol li {
+  line-height: var(--leading);
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: var(--leading);
+  margin-top: var(--leading);
+  margin-bottom: var(--leading);
+}
+
+h1 {
+  margin-top: calc(var(--leading) * 3);
+  font-size: calc(var(--scale) * 3 * 1rem);
+  line-height: calc(var(--leading) * 3);
+}
+h2 {
+  margin-top: calc(var(--leading) * 2);
+  font-size: calc(var(--scale) * 2 * 1rem);
+  line-height: calc(var(--leading) * 2);
+}
+h3 {
+  margin-top: var(--leading);
+  font-size: calc(var(--scale) * 1rem);
+  line-height: var(--leading);
+}
+h4 {
+  margin-top: var(--leading);
+  font-size: calc(var(--scale) / 2 * 1rem);
+  line-height: var(--leading);
+}
+h5 {
+  margin-top: var(--leading);
+  font-size: calc(var(--scale) / 3 * 1rem);
+  line-height: var(--leading);
+}
+h6 {
+  margin-top: var(--leading);
+  font-size: calc(var(--scale) / 4 * 1rem);
+  line-height: var(--leading);
+}
+
+table {
+  margin-top: var(--leading);
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+  line-height: calc(var(--base-line-height) * var(--base-font-size) - 0px);
+}
+
+code {
+  /* Forces text to constrain to the line-height. Not ideal, but works. */
+  vertical-align: bottom;
+}

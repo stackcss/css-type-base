@@ -1,0 +1,19 @@
+{
+  "name": "css-type-base",
+  "version": "1.0.0",
+  "description": "Scalar CSS typography",
+  "main": "index.css",
+  "scripts": {},
+  "repository": "yoshuawuyts/css-type-base",
+  "keywords": [
+    "scale",
+    "css",
+    "typography",
+    "type",
+    "type-base"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
