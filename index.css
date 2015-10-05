@@ -79,6 +79,7 @@ td,
 th {
   padding: 0;
   line-height: calc(var(--base-line-height) * var(--base-font-size) - 0px);
+  vertical-align: top;
 }
 
 code {
