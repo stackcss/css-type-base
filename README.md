@@ -31,7 +31,7 @@ With [sheetify][2] installed do:
 [downloads-url]: https://npmjs.org/package/css-type-base
 
 [0]: https://github.com/devinhunt/typebase.css
-[1]: https://github.coms/sheetify/css-scale
+[1]: https://github.com/sheetify/css-scale
 [2]: https://github.com/sheetify/sheetify
 [3]: https://github.com/sheetify/css-wipe
 [4]: https://github.com/sheetify/ergonomic-breakpoint
